@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Web Profile</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="#" class="logo">Khennel E.</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about" class="container">
+            <div class="about-content">
+                <img src="profile.jpg" alt="Profile Picture of Khennel" class="profile-img">
+                <div class="about-text">
+                    <h1>Hi, I'm Khennel S. Erolin </h1>
+                    <h3>Business Administration Professor</h3>
+                    <p>I am a passionate about Education, Finance, and Technology, especially in the field of data
+                        analytics and financial technology. I enjoy helping students understand business concepts and
+                        preparing them for real-world careers.
+                    </p>
+                    <p>In my free time, I like exploring new places, watching movies and learning new technologies.</p>
+
+                    <button id="fact-btn" class="btn">Show Fun Fact</button>
+                    <p id="fact-display"></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="hobbies" class="container">
+            <h2 class="section-title">My Hobbies</h2>
+
+            <div class="hobbies-grid">
+                <div class="hobby-card">
+                    <i class="fa-solid fa-plane hobby-icon"></i>
+                    <h3>Traveling</h3>
+                    <p>I enjoy Traveling and exploring new places. Traveling allows me to experience different cultures
+                        and learn new perpectives about the World.</p>
+                </div>
+
+                <div class="hobby-card">
+                    <i class="fa-solid fa-tv hobby-icon"></i>
+                    <h3>Watching Movies</h3>
+                    <p>Watching movies is one of my favourite ways to relax. I enjoy films that are based on books or
+                        real-life stories.</p>
+                </div>
+
+                <div class="hobby-card">
+                    <i class="fa-solid fa-computer hobby-icon"></i>
+                    <h3>Learning About Technology</h3>
+                    <p>I am interested in data analytics and financial technology. I like learning how technology can
+                        improve business and financial decision-making.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <p>I'm currently looking for new opportunities and collaborations. Whether you have a question or just
+                    want to say hi, I'll try my best to get back to you!</p>
+                <div class="contact-email">
+                    <strong>Email:</strong> <a href="mailto:khennelerolin@email.com"
+                        style="color: var(--primary-color); text-decoration: none;">khennelerolin@email.com</a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/khennelerolin" target="_blank" class="social-link"
+                        title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2026 Khennel S. Erolin | Personal Web Profile</p>
+    </footer>
+    <script>
+        const funFacts = [
+            "I am currently studying Diploma in Computer Science (DCS) to integrate technology with finance.",
+            "Since Financial Technology (FinTech) is becoming increasingly relevant in modern business, I aim to combine my knowledge of finance, data analytics, and technology",
+            "My goal is to better understand financial systems and support data-driven financial decision making."
+        ];
+
+        const factButton = document.getElementById('fact-btn');
+        const factDisplay = document.getElementById('fact-display');
+
+        factButton.addEventListener('click', function () {
+            const randomIndex = Math.floor(Math.random() * funFacts.length);
+            const randomFact = funFacts[randomIndex];
+
+            factDisplay.innerText = "Did you know? " + randomFact;
+
+            factDisplay.style.opacity = 0;
+            setTimeout(() => {
+                factDisplay.style.transition = "opacity 0.5s";
+                factDisplay.style.opacity = 1;
+            }, 50);
+        });
+    </script>
+</body>
+
+</html>
