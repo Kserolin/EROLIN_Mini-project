@@ -1,6 +1,7 @@
 This is my Mini project for my subject CMSC 207
 
 **Welcome to My Personal Web Profile**
+
 Hi, I'm Khennel S. Erolin! This is a single-page digital profile designed to give you a quick glimpse into who I am, what I do, and what I enjoy outside of my career.
 
 **What You'll Find Here**
