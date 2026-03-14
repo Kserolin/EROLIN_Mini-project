@@ -14,8 +14,9 @@ A quick introduction to myself as a Business Administration Professor. I am pass
 **2. My Hobbies**
 A snapshot of how I like to spend my free time:
 
-Traveling: Exploring new places, experiencing different cultures, and learning new perspectives about the world.
-Watching Movies: Relaxing with films that are based on books or real-life stories.
-Learning About Technology: Diving into data analytics and financial technology to learn how tech can improve business and financial decision-making.
-3. Contact & Socials
-Links to easily get in touch with me. Whether you have a question, want to discuss opportunities, or just say hi, you'll find my email (khennelerolin@email.com) and a link to my LinkedIn profile here.
+_Traveling_- Exploring new places, experiencing different cultures, and learning new perspectives about the world.
+_Watching Movies_- Relaxing with films that are based on books or real-life stories.
+_Learning About Technology_- Diving into data analytics and financial technology to learn how tech can improve business and financial decision-making.
+
+**3. Contact & Socials**
+Links to easily get in touch with me. Whether you have a question, want to discuss opportunities, or just say hi, you'll find my email (_khennelerolin@email.com)_ and a link to my LinkedIn profile here.
