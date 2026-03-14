@@ -1,15 +1,15 @@
 This is my Mini project for my subject CMSC 207
 
-Welcome to My Personal Web Profile
+**Welcome to My Personal Web Profile**
 Hi, I'm Khennel S. Erolin! This is a single-page digital profile designed to give you a quick glimpse into who I am, what I do, and what I enjoy outside of my career.
 
-What You'll Find Here
+**What You'll Find Here**
 The website is divided into three main sections:
 
-1. About Me
+**1. About Me**
 A quick introduction to myself as a Business Administration Professor. I am passionate about Education, Finance, and Technology—especially in the field of data analytics and financial technology. I enjoy helping students understand business concepts and preparing them for real-world careers. In this section, you can click a button to reveal random fun facts about my studies and tech goals!
 
-2. My Hobbies
+**2. My Hobbies**
 A snapshot of how I like to spend my free time:
 
 Traveling: Exploring new places, experiencing different cultures, and learning new perspectives about the world.
